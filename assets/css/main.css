@@ -2039,7 +2039,7 @@ input, select, textarea {
 		}
 
 			.main.style3 .content > header {
-				margin-bottom: 2em;
+				/* margin-bottom: 2em; */
 			}
 
 			.main.style3.primary {
@@ -2273,7 +2273,7 @@ input, select, textarea {
 
 	#contact {
 		overflow: hidden;
-		padding-bottom: 0;
+		/* padding-bottom: 0; */
 	}
 
 		#contact .box {
