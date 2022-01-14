@@ -2808,7 +2808,7 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: rgb(115, 117, 124);
+							background: rgb(55, 56, 62);
 							border-radius: 5px;
 							font-weight: bold;
 							color: white !important;
@@ -3079,7 +3079,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: rgb(115, 117, 124);
+						/* background: rgb(55, 56, 62); */
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
@@ -3336,7 +3336,7 @@ input, select, textarea {
 	}
 
 	.image.main {
-		background-color: rgb(32, 33, 37);
+		background-color: rgb(55, 56, 62);
 	}
 
 	#pride-gradient {
