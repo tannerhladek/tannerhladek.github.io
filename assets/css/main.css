@@ -3334,3 +3334,7 @@ input, select, textarea {
 		justify-content: center;
 		align-items: center;
 	}
+
+	.image.main {
+		background-color: rgb(32, 33, 37);
+	}
