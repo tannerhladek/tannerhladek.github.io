@@ -1785,7 +1785,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: rgb(32, 33, 37);
 		font-size: 3.5em;
 	}
 
@@ -3079,7 +3079,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: rgb(115, 117, 124);
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
@@ -3337,4 +3337,16 @@ input, select, textarea {
 
 	.image.main {
 		background-color: rgb(32, 33, 37);
+	}
+
+	#pride-gradient {
+		background-color: black;
+		background:-moz-linear-gradient(0deg, rgba(244, 67, 54, 1) 0%, rgba(255, 193, 7, 1) 20%, rgb(228, 205, 0) 36%, rgba(76, 175, 80, 1) 60%, rgba(64, 101, 230, 1) 81%, rgba(156, 39, 176, 1) 100%);
+		background:-webkit-linear-gradient(0deg, rgba(244, 67, 54, 1) 0%, rgba(255, 193, 7, 1) 20%, rgb(228, 205, 0) 36%, rgba(76, 175, 80, 1) 60%, rgba(64, 101, 230, 1) 81%, rgba(156, 39, 176, 1) 100%);
+		background-size: 100%;
+		background-repeat: repeat;
+		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+  		-moz-background-clip: text;
+  		-moz-text-fill-color: transparent;
 	}
