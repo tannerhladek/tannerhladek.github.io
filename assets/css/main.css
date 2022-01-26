@@ -479,6 +479,7 @@ input, select, textarea {
 					padding-top: 4em;
 				}
 
+
 		@media screen and (max-width: 1680px) {
 
 			.row {
@@ -2044,6 +2045,7 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			/* font-weight: 700; */
 		}
 
 /* Image */
@@ -2402,7 +2404,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: rgb(32, 33, 32);
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2808,7 +2810,7 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: rgb(115, 117, 124);
+							background: rgb(55, 56, 62);
 							border-radius: 5px;
 							font-weight: bold;
 							color: white !important;
@@ -3079,7 +3081,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: rgb(115, 117, 124);
+						/* background: rgb(55, 56, 62); */
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
@@ -3336,7 +3338,7 @@ input, select, textarea {
 	}
 
 	.image.main {
-		background-color: rgb(32, 33, 37);
+		background-color: rgb(55, 56, 62);
 	}
 
 	#pride-gradient {
@@ -3349,4 +3351,8 @@ input, select, textarea {
   		-webkit-text-fill-color: transparent;
   		-moz-background-clip: text;
   		-moz-text-fill-color: transparent;
+	}
+
+	#title-container {
+		margin: 0 0 1.6em 0;
 	}
